@@ -40,9 +40,9 @@ h1 {
   width: 100px;
 }
 
-/* lightbox is shown even if displayed as NONE, fix the #articles and stuff */ 
+/* lightbox is shown even if displayed as NONE, fix the #articles and stuff */
 #lightbox {
-  position: absolute;
+  position: fixed;
   text-align: center;
   margin: 25px auto;
   background-color: white;
