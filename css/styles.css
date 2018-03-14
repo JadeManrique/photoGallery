@@ -42,13 +42,13 @@ h1 {
 
 /* lightbox is shown even if displayed as NONE, fix the #articles and stuff */
 #lightbox {
-  position: fixed;
+  position: relative;
   text-align: center;
   margin: 25px auto;
   background-color: white;
-  width: 80%;
-  height: 80%;
-  display: none;
+  width: 60%;
+  height: 60%;
+  display: block;
 }
 
 /* Footer */

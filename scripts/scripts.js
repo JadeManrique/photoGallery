@@ -1,38 +1,24 @@
 $(document).ready( function () {
 
-  $("#article div").click( function (e) {
 
-      if ( $(this).find("img").css("width") == "120px" ) {
 
-       $(this).find("img").css("width", "200px");
+  $("#article div img").click( function () {
 
-      } else {
+  //  $("#lightbox").show();
 
-        $(this).find("img").css("width", "100px");
+    var imageLink = $(this).attr("src");
 
-      }
+    var imageText = "<img src=\'" + imageLink + "\' />";
+
+    $("#lightbox").html(imageText);
+
+//    $("#lightbox").click( function (event) {
+
+//      $("#lightbox").hide();
+
+//      });
 
     });
-
-
-
-  // $("#article div img").click( function () {
-  //
-  //   $("#lightbox").show();
-  //
-  //   var imageLink = $(this).attr("src");
-  //
-  //   var imageText = "<img src='" + imageLink + "' />";
-  //
-  //   $("#lightbox").html(imageText);
-  //
-  //   $("#lightbox").click( function (event) {
-  //
-  //     $("#lightbox").hide();
-  //
-  //     });
-  //
-  //   });
 
     $("#article div img").hover( function(e) {
 
@@ -45,6 +31,7 @@ $(document).ready( function () {
       });
 
 
+
   });
 
 
@@ -52,9 +39,9 @@ $(document).ready( function () {
 
 $("#article div").click( function (e) {
 
-    if ( $(this).find("img").css("width") == "100px" ) {
+    if ( $(this).find("img").css("width") == "120px" ) {
 
-     $(this).find("img").css("width", "300px");
+     $(this).find("img").css("width", "200px");
 
     } else {
 
