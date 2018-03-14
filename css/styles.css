@@ -13,6 +13,10 @@ h1 {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Header */
 #header {
   margin: 10px;
@@ -23,7 +27,9 @@ h1 {
 
 /* Article */
 #article {
-  margin: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
 #article p {
@@ -31,22 +37,22 @@ h1 {
   text-align: center;
 }
 
-#article div {
-  display: inline-block;
-  margin: 10px;
+.thumbnail img {
+  width: 100px;
 }
 
-#article div img {
-  width: 100px;
+.thumbnail {
+  display: inline-block;
+  margin: 10px;
 }
 
 /* lightbox is shown even if displayed as NONE, fix the #articles and stuff */
 #lightbox {
   position: relative;
   text-align: center;
-  margin: 25px auto;
+  margin: 0px;
   background-color: white;
-  width: 60%;
+  width: 100%;
   height: 60%;
   display: block;
 }
@@ -55,8 +61,6 @@ h1 {
 #footer {
   background-color: #0078FF;
   width: 100%;
-  bottom: 0;
-  position: fixed;
   text-align: center;
 }
 
