@@ -39,11 +39,16 @@ h1 {
 
 .thumbnail img {
   width: 100px;
+  opacity: 0.5;
 }
 
 .thumbnail {
   display: inline-block;
   margin: 10px;
+}
+
+.imgBar {
+  border: 1px red solid;
 }
 
 /* lightbox is shown even if displayed as NONE, fix the #articles and stuff */
