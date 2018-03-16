@@ -50,7 +50,7 @@ h1 {
 .imgBar {
   border-style: ridge;
   border-width: 15px;
-  border-color: red;
+  border-color: #0078FF;
 }
 
 #largeImg {
