@@ -15,7 +15,7 @@ $(document).ready( function () {
 
     $("#article div img").hover( function(e) {
 
-          $(this).animate({opacity: 1.0, height: "auto", width: "120px"}, 150);
+          $(this).animate({opacity: 1.0, height: "auto", width: "105px"}, 150);
 
       }, function() {
 
