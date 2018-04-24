@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Gugi');
 
 body {
   background-color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gugi', sans-serif;
   color: white;
   position: relative;
 }
 
 h1 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Cute Font', sans-serif;
   font-size: 50px;
   text-align: center;
 }
