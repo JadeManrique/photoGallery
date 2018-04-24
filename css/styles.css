@@ -4,6 +4,7 @@ body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
   color: white;
+  position: relative;
 }
 
 h1 {
@@ -50,6 +51,7 @@ h1 {
   border-style: ridge;
   border-width: 15px;
   border-color: #0078FF;
+  margin-bottom: 100px;
 }
 
 #largeImg {
@@ -74,7 +76,7 @@ h1 {
 
 /* Footer */
 #footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   background-color: #0078FF;
   width: 100%;
